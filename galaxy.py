@@ -10,6 +10,8 @@ screen = turtle.Screen()
 screen.setup(780, 480)
 screen.bgcolor("#03030b")
 screen.colormode(1.0)
+#makes the process faster
+#screen.tracer(180)
 
 t = turtle.Turtle()
 t.hideturtle()
